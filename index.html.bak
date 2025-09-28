@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>My Online Resume - Kenny Luong</title>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div id="container">
+		<header>
+			<h1>Resume of Kenny Luong</h1>
+		</header>
+		
+		
+		<table>
+			<tr>
+				<td><img src="images/kennyluong.jpg" alt="picture of myself"/></td>
+				<td>
+					<h2>Contact Information</h2> 
+					<p>Kenny Luong</p>
+					<p>Address: 1236 79th Street</p>
+					<p>Phone: 347-453-5838</p>
+					<p><a href="mailto:kennyl5304@gmail.com">kennyl5304@gmail.com</a></p>
+				</td>
+			</tr>
+		</table>
+		
+		<nav>
+			<ul>
+				<li class="mobile"><a href="#educationmob">Education</a></li> 
+				<li class="tablet-desktop"><a href="#education">Education</a></li>
+				<li><a href="#employment">Employment History</a></li>
+				<li><a href="https://www.bths.edu">Brooklyn Technical High School</a></li>
+				<li><a href="https://www.bklynlibrary.org">Brooklyn Public Library</a></li>
+				<li><a href="https://www.pace.edu">Pace University</a></li>
+			</ul>
+		</nav>
+		 
+		<main>
+			<h3>Career Objective:</h3><p> To use my skills and talents, whether it'd be creatively or in code, to make a difference and create a body of work that can reach millions</p>
+			
+			<section class="mobile">
+				<div id="educationmob">
+					<h2>Education</h2>
+					<h4>Pace University</h4>
+					<p>9/9/2021->present</p>
+					<ul>
+						<li>Current GPA: 3.94</li>
+						<li>Computer Science B.S. Major</li>
+					</ul>
+					<p>More information about Pace University <a href="https://www.pace.edu">here.</a></p>
+					<a href="https://www.pace.edu"><img src="images/pace.jpg" alt="pace university logo"/></a>
+					
+					<h4>Brooklyn Technical High School</h4>
+					<p>9/7/2017->6/26/2021</p>
+					<ul>
+						<li>Weighted GPA: 97.5</li>
+						<li>Software Engineering Major</li>
+						<li>Experience in courses such as AP Computer Science A and IT Infrastructure</li>
+					</ul>
+					<a href="https://www.bths.edu"><img src="images/bths.jpg" alt="bths logo"/></a>
+				</div>
+				<br />
+				
+				<div id="employment">
+					<h2>Employment History</h2>
+					
+					<h4>Bowery Residents' Committee</h4>
+					<div id="eduinfo">
+						<p>Design Consultant for "Dear Next Reader" Book Drive (3/22/2022->present)</p>
+						<ul>
+							<li>Designed social media posts for the book drive campaign</li>
+							<li>Performed research for information to use in the drive</li>
+							<li>Helped design bookplates for reader reviews</li>
+						</ul>
+						<p>More information about Bowery Residents' Committee <a href="https://www.brc.org">here.</a>
+					</div>
+					<a href="https://www.brc.org"><img src="images/brc.png" alt="brc logo"/></a>
+					
+					<h4>Brooklyn Public Library</h4>
+					<div id="eduinfo">
+						<p>Computer Coach (8/6/2019->9/4/2019)</p>
+						<ul>
+							<li>Provided general assistance to many patrons</li>
+							<li>Looked after and reported issues with technology in the facility</li>
+							<li>Helped patrons with devices such as the printer, copy machine, and fine kiosk</li>
+						</ul>
+						<p>More information about Brooklyn Public Library <a href="https://www.bklynlibrary.org">here.</a>
+					</div>
+					<a href="https://www.bklynlibrary.org"><img src="images/bklynlib.jpg" alt="brooklyn public library logo"/></a>
+				</div>
+			</section>
+			
+			<section class="tablet-desktop">
+				<div id="education">
+					<h2>Education</h2>
+					<section class="grid">
+						<section id="info">
+							<h4>Pace University</h4>
+							<div id="eduinfo">
+								<p>9/9/2021->present</p>
+								<ul>
+									<li>Current GPA: 3.94</li>
+									<li>Computer Science B.S. Major</li>
+								</ul>
+								<p>More information about Pace University <a href="https://www.pace.edu">here.</a></p>
+							</div>
+							<br />
+							
+							<br />
+							<h4>Brooklyn Technical High School</h4>
+							<div id="eduinfo">
+								<p>9/7/2017->6/26/2021</p>
+								<ul>
+									<li>Weighted GPA: 97.5</li>
+									<li>Software Engineering Major</li>
+									<li>Experience in courses such as AP Computer Science A and IT Infrastructure</li>
+								</ul>
+							</div>
+						</section>
+						
+						<section id="pics">
+							<a href="https://www.pace.edu"><img src="images/pace.jpg" alt="pace university logo"/></a>
+							<a href="https://www.bths.edu"><img src="images/bths.jpg" alt="bths logo"/></a>
+						</section>
+					</section>
+				</div>
+				<br />
+				
+				
+				<div id="employment">
+					<h2>Employment History</h2>
+					
+					<section id="grid">
+						<section id="info">
+							<h4>Bowery Residents' Committee</h4>
+							<div id="eduinfo">
+								<p>Design Consultant for "Dear Next Reader" Book Drive (3/22/2022->present)</p>
+								<ul>
+									<li>Designed social media posts for the book drive</li>
+									<li>Performed research for information to use in campaigns</li>
+									<li>Helped design bookplates for reader reviews</li>
+								</ul>			
+								<p>More information about Bowery Residents' Committee <a href="https://www.brc.org">here.</a>
+							</div>
+							
+							<h4>Brooklyn Public Library</h4>
+							<div id="eduinfo">
+								<p>Computer Coach (8/6/2019->9/4/2019)</p>
+								<ul>
+									<li>Provided general assistance to many patrons</li>
+									<li>Looked after and reported issues with the tech</li>
+									<li>Helped patrons with the facility's devices</li>
+								</ul>
+								<p>More information about Brooklyn Public Library <a href="https://www.bklynlibrary.org">here.</a>
+							</div>
+						</section>
+					
+						<a href="https://www.bklynlibrary.org"><img src="images/bklynlibint.jpg" alt="brooklyn public library interior"/></a>
+
+					</section>
+				</div>
+			</section>
+			<br />
+			<br />
+			
+			<div id="other">
+				<h2>Skills and Interests</h2>
+				<ul>
+					<li>Basic skills and knowledge in programming languages such as Java, HTML, CSS, JavaScript, and Python</li>
+					<li>Knowledge on the Unity Engine</li>
+					<li>Bilingual</li>
+					<li>Knowledge of music theory</li>
+					<li>Ability to play piano/trombone/guitar</li>
+					<li>Experience in building computers</li>
+					<li>Basic skills in Linux machines</li>
+					<li>Skills in Autodesk inventor</li>
+					<li>Quick Learner</li>
+				</ul>
+			</div>
+			<br />
+			
+			<div id="youtube">
+				<h2>Potential Career Path</h2>
+				<iframe src="https://www.youtube.com/embed/_tE4phLuGyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p>Here is a video showcasing a possible career path I'd be willing to take. The future is still undecided, and there are many potential paths before me.</p>
+			</div>
+		</main>
+		</div>
+	</body>
+</html>
