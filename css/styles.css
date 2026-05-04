@@ -371,6 +371,13 @@ footer p a {
 		clear: left;
 	}
 
+	#case {
+		background-color:#b3b3b3;
+		padding:10px;
+		border-radius: 10px;
+	}
+
+
 	/* Desktop Viewport: Style rule for form elements */
 	form {
 		width: auto;
